@@ -1,6 +1,5 @@
-import React from 'react';
 
-function SiteCard({title, link, description}){
+function Sitecard({title, link, description}){
     return(
         <div className = "flex flex-col rounded-lg border p-3 items-center justify-center bg-gradient-to-r from-violet-300 to-sky-300">
             <p className = "text-2xl font-serif">{title}</p>
@@ -14,4 +13,4 @@ function SiteCard({title, link, description}){
         </div>
     )
 }
-export default SiteCard;
+export default Sitecard;

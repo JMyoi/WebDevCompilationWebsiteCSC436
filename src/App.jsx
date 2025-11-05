@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header'
-import SiteCard from './components/SiteCard.jsx';
+import Sitecard from './components/Sitecard.jsx';
 import Footer from './components/Footer';
 
 function App() {
@@ -56,7 +56,7 @@ function App() {
       <Header />
       <div className = "grid gap-6 sm:grid-cols-2 lg:grid-cols-3 m-10  ">
         {sites.map(site =>(
-            <SiteCard 
+            <Sitecard 
               title = {site.title}
               link = {site.link}
               description = {site.description}
