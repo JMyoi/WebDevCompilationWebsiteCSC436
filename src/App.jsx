@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header'
-import SiteCard from './components/SiteCard';
+import SiteCard from './components/SiteCard.jsx';
 import Footer from './components/Footer';
 
 function App() {
