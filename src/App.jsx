@@ -47,7 +47,24 @@ function App() {
       link: "https://project3review.netlify.app/", 
       description: "Learn how to build data-driven React applications by exploring progressive examples using the Dog CEO API. Learn basic fetch, interactive fetch, listing data, and search & filtering.",
     },
-
+    {
+      id:8,
+      title: "D&D Character Manager - Full-Stack Application", 
+      link: "https://github.com/diabeatz96/dnd-character-fullstack", 
+      description: "A complete full-stack web application for managing D&D characters, designed to teach students about frontend-backend communication. This project demonstrates how a React frontend communicates with an Express backend through HTTP requests. It implements a complete CRUD (Create, Read, Update, Delete) application with a clean, modern UI.",
+    },
+    {
+      id:9,
+      title: "Coffee Shop REST API with database", 
+      link: "https://github.com/diabeatz96/coffee-api-starter", 
+      description: "Build a complete REST API with database Integration via lowDB (lets you make databases out of JSON files) ",
+    },
+    {
+      id:10,
+      title: "Project 4 starter template", 
+      link: "https://github.com/diabeatz96/project4-starter-template-2025", 
+      description: "Starter template for project four. ",
+    },
   ]
 
   return (
